@@ -1,0 +1,38 @@
+.btn-login {
+    background: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: #0056b3; /* Darker blue for hover */
+  }
+  
+  .btn-signup {
+    background: linear-gradient(45deg, #f06, #ff6);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-signup:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #ff6, #f06); /* Reverse gradient for hover */
+  }
+
+  
+  
